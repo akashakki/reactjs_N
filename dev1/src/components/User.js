@@ -16,6 +16,7 @@ export default class User extends React.PureComponent {
               </List.Content>
               <List.Content>
                 {author.title}
+                {author.desc}
               </List.Content>
             </List.Item>
           </List>
